@@ -1,0 +1,470 @@
+.pokeinfo__header {
+    width: 100vw;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-image: url('../../../public/assets/headerpokedexid.png');
+    z-index: 15;
+}
+
+.pokeinfo {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.span__id {
+    border: 1px solid rgb(157, 157, 157);
+    margin-top: 30px;
+    font-size: 20px;
+    color: #41635F;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.pokemon__name {
+    color: #41635F;
+    padding-top: 20px;
+}
+
+.pokeinfo__data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 35px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.pokeinfo__data li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokeinfo__img {
+    position: absolute;
+    top: 200px;
+    height: 300px;
+}
+
+
+.stats__bar {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.stats__prog {
+    background-color: orange;
+    height: 100%;
+}
+
+.span {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+
+.pokeinfo__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pokeinfo__types {
+    display: flex;
+    gap: 20px
+}
+
+.pokeinfo__skills {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pokeinfocard---normal {
+    background-color: #8E5B66;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---fighting {
+    background-color: #A9472E;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---flying {
+    background-color: dodgerblue;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---poison {
+    background-color: violet;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---ground {
+    background-color: brown;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---rock {
+    background-color: #89898E;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---bug {
+    background-color: #41B53F;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---ghost {
+    background-color: rebeccapurple;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---steel {
+    background-color: steelblue;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---fire {
+    background-color: #E45929;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.pokeinfocard---water {
+    background-color: #1468D5;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---grass {
+    background-color: #7BB6B0;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---electric {
+    background-color: yellow;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---psychic {
+    background-color: darkmagenta;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---ice {
+    background-color: aqua;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---dragon {
+    border-color: #529EA8;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---dark {
+    background-color: black;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.pokeinfocard---fairy {
+    background-color: salmon;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.skills__ab{
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.pokeinfo__stats{
+    padding: 15px;
+}
+
+.pokeinfo__movements{
+    padding: 30px 0 50px 0;
+}
+
+.pokeinfo__movementsul{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeinfo__movementsli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.54);
+    /* border: 1px solid black; */
+   /* font-weight: bold; */
+}
+
+
+
+
+
+
+
+
+
+
+.pokeinfodiv---normal {
+    background-color: #8E5B66;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---fighting {
+    background-color: #A9472E;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---flying {
+    background-color: dodgerblue;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---poison {
+    background-color: violet;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---ground {
+    background-color: brown;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---rock {
+    background-color: #89898E;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+}
+
+.pokeinfodiv---bug {
+    background-color: #41B53F;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+}
+
+.pokeinfodiv---ghost {
+    background-color: rebeccapurple;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---steel {
+    background-color: steelblue;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---fire {
+    background-color: #E45929;
+    padding-top: 250px;
+    width: 60%;
+    height: 100px;
+}
+
+.pokeinfodiv---water {
+    background-color: #1468D5;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---grass {
+    background-color: #7BB6B0;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---electric {
+    background-color: yellow;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---psychic {
+    background-color: darkmagenta;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---ice {
+    background-color: aqua;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---dragon {
+    border-color: #529EA8;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+
+}
+
+.pokeinfodiv---dark {
+    background-color: black;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+}
+
+.pokeinfodiv---fairy {
+    background-color: salmon;
+    padding-top: 250px;
+    width: 60%;
+    height: 150px;
+}
+
+
+
